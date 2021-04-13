@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../font/flaticon.ttf?5a1948847e25d6298ab2742fe2ccb10a") format("truetype"),
+        url("../font/flaticon.woff?5a1948847e25d6298ab2742fe2ccb10a") format("woff"),
+        url(".../font/flaticon.woff2?5a1948847e25d6298ab2742fe2ccb10a") format("woff2"),
+        url("../font/flaticon.eot?5a1948847e25d6298ab2742fe2ccb10a#iefix") format("embedded-opentype"),
+        url("../font/flaticon.svg?5a1948847e25d6298ab2742fe2ccb10a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before,
+i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-buddhist-yoga-pose:before {
+    content: "\f101";
+}
+
+.flaticon-exercise:before {
+    content: "\f102";
+}
+
+.flaticon-man-boxing:before {
+    content: "\f103";
+}
+
+.flaticon-man-lifting-weight:before {
+    content: "\f104";
+}
+
+.flaticon-skipping-rope:before {
+    content: "\f105";
+}

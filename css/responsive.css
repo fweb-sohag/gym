@@ -1,0 +1,375 @@
+/* extra small device */
+@media(max-width: 575.98px) {
+    .navbar .navbar-brand {
+        position: static;
+        padding: 0;
+        top: 0;
+        transform: skewX(0deg);
+    }
+
+    .navbar .navbar-brand img {
+        transform: skewX(0deg);
+    }
+
+    .navbar-toggler {
+        border-color: #fff !important;
+        margin-right: 15px;
+
+    }
+
+    .navbar-toggler span {
+        color: #fff;
+    }
+
+    #banner .bg1 .banner-text h3::before {
+        display: none;
+    }
+
+    #banner .banner-text h3 {
+        font-size: 23px;
+    }
+
+    #banner .banner-text h1 {
+        font-size: 40px;
+    }
+
+    #banner .banner-text p {
+        padding: 0 5px;
+    }
+
+    #banner .banner-text a {
+        font-size: 14px;
+        padding: 0 10px;
+        margin: 0 10px;
+    }
+
+
+
+    footer .copyright p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+    #banner .bg1 .banner-text h3::after {
+        display: none;
+
+    }
+
+    #banner .bg1 .banner-text p::before {
+        display: none;
+    }
+
+    #banner .bg1 .banner-text p::after {
+        display: none;
+    }
+
+    #banner .bg1 .banner-text h1::before {
+        display: none;
+    }
+
+    #banner .bg1 .banner-text h1::after {
+        display: none;
+    }
+
+    .navbar-nav {
+        background: var(--bcol);
+        text-align: center;
+    }
+
+    #banner .banner-text p {
+        font-size: 12px;
+    }
+
+    #about {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #about .about-text p {
+        padding-bottom: 20px;
+    }
+
+    #gallery {
+        padding-bottom: 30px;
+    }
+
+    #team {
+        padding-bottom: 40px;
+    }
+
+    #testimonial {
+        margin-bottom: 32px;
+    }
+
+    #classes .classe-menu .nav-link {
+        width: 272px;
+    }
+
+    #classes .class-item ul li {
+        width: 49%;
+
+    }
+
+    #classes .class-item ul li {
+        width: 48%;
+    }
+
+    footer .copyright p {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+
+/* extra small device */
+/* small device  */
+@media (min-width: 576px) and (max-width:767.98px) {
+    .navbar .navbar-brand {
+        position: static;
+        padding: 10px;
+        top: 0;
+
+    }
+
+    .navbar-toggler {
+        border-color: #fff !important;
+        margin-right: 15px;
+
+    }
+
+    .navbar-toggler span {
+        color: #fff;
+    }
+
+    .navbar-nav {
+        background: var(--bcol);
+        text-align: center;
+    }
+
+    #banner .banner-text p {
+        font-size: 13px;
+        /* padding: 0 5px; */
+    }
+
+    #banner .bg1 .banner-text h3::before {
+        width: 97px;
+    }
+
+    #banner .bg1 .banner-text h3::after {
+        width: 145px;
+
+    }
+
+    #banner .bg1 .banner-text p::before {
+        width: 23px;
+    }
+
+    #banner .bg1 .banner-text p::after {
+        width: 50px;
+    }
+
+    #about {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #about .about-text p {
+        padding-bottom: 20px;
+    }
+
+    #gallery {
+        padding-bottom: 30px;
+    }
+
+    #team {
+        padding-bottom: 40px;
+    }
+
+    #testimonial {
+        margin-bottom: 32px;
+    }
+
+    #classes .classe-menu .nav-link {
+        width: 170px;
+    }
+
+    #classes .class-item ul li {
+        width: 32%;
+
+    }
+}
+
+/* small device  */
+/* maddim device  */
+@media (min-width: 768px) and (max-width:991.98px) {
+    .navbar .navbar-brand {
+        position: static;
+        padding: 10px;
+        top: 0;
+
+    }
+
+
+
+    .navbar-toggler {
+        border-color: #fff !important;
+        margin-right: 15px;
+
+    }
+
+    .navbar-toggler span {
+        color: #fff;
+    }
+
+    .navbar-nav {
+        background: var(--bcol);
+        text-align: center;
+    }
+
+
+    #banner .banner-text p {
+        font-size: 13px;
+        /* padding: 0 5px; */
+    }
+
+    #banner .bg1 .banner-text p::before {
+        width: 112px;
+
+    }
+
+    #banner .bg1 .banner-text h3::before {
+        width: 185px;
+
+
+    }
+
+    #banner .bg1 .banner-text h3::after {
+        width: 236px;
+
+    }
+
+    #banner .bg1 .banner-text p::after {
+        width: 140px;
+    }
+
+    #about {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #about .about-text p {
+        padding-bottom: 20px;
+    }
+
+    #gallery {
+        padding-bottom: 30px;
+    }
+
+    #team {
+        padding-bottom: 40px;
+    }
+
+    #testimonial {
+        margin-bottom: 32px;
+    }
+
+    #classes .classe-menu .nav-link {
+        width: 230px;
+    }
+
+    #classes .class-item ul li {
+        width: 32%;
+
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199.98px) {
+
+
+    #banner .banner-text p {
+        font-size: 13px;
+        /* padding: 0 5px; */
+    }
+
+    /* #banner .bg1 .banner-text p::before {
+        width: 112px;
+
+    } */
+
+    /* #banner .bg1 .banner-text h3::before {
+        width: 150px;
+    } */
+
+    #banner .bg1 .banner-text p::before {
+        right: -60px;
+        width: 45px;
+    }
+
+    #banner .bg1 .banner-text p::after {
+        left: -60px;
+        width: 71px;
+    }
+
+    /* #banner .bg1 .banner-text h3::after {
+         width: 236px; 
+    width: 186px;
+
+}  */
+
+    /* #banner .bg1 .banner-text p::after {
+        width: 140px;
+    } */
+
+    #banner .bg1 .banner-text h1::after {
+        left: -60px;
+        height: 220px;
+    }
+
+    #banner .bg1 .banner-text h1::before {
+        right: -60px;
+        height: 220px;
+    }
+
+    #banner .bg1 .banner-text h3::after {
+        left: -58px;
+        width: 186px;
+    }
+
+    #banner .bg1 .banner-text h3::before {
+        right: -57px;
+        width: 145px;
+    }
+
+    #about {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #about .about-text p {
+        padding-bottom: 20px;
+    }
+
+    #gallery {
+        padding-bottom: 30px;
+    }
+
+    #team {
+        padding-bottom: 40px;
+    }
+
+    #testimonial {
+        margin-bottom: 32px;
+    }
+
+    #classes .classe-menu .nav-link {
+        width: 151px;
+    }
+
+    #classes .class-item ul li {
+        width: 19%;
+
+    }
+}
+
+/* maddim device  */
